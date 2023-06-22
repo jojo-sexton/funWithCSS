@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+  
+    <HEAD>
+      <link rel="stylesheet" href="../Styles/main.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Technical blog post</title>
+    </HEAD>
+
+    <BODY>
+      <!-- Header -->
+      <Header>
+        <<Nav>
+            <UL class="navbarheader">
+            <li> <a href="../index.html">Home</a></li>
+            <li> <a href="../blog/identity-values.html"> Values</a></li>
+            <li> <a href="../blog/learning-plan.html">Learning Plan</a> </li>
+            <li> <a href="../blog/contact.html">Call Me Maybe?</a></li>
+            </UL>
+          </Nav>
+<!-- drop down menu for phone -->
+<div class="dropdown">
+  <button class="dropbutton">Menu</button>
+
+  <div class="dropdown-content">
+<ul>
+<li> <a href="../index.html">JoJo</a></li>
+<li> <a href="/blog/identity-values.html"> Values</a></li>
+<li class="desktop"> <a href="../blog/learning-plan.html">Learning Plan</a> </li>
+<li class="desktop"> <a href="../blog/contact.html">Call Me Maybe?</a></li>
+</ul>
+  </div>
+</div>
+
+<!-- this is the title of the page -->
+<Section>  <h1 align="center" class="kiaora">What does it mean to display inline vs inline blocks? </h1>
+   
+  </Section>
+
+  </Header>
+
+  <!-- from here to the top is the default for each web page. remember to change title, title of the page -->
+
+  <div  >
+    <h2>Inline , Block and Inline-Block in CSS explained in simple terms:</h2>
+    <ul>
+<li>
+  <h3>{display:inline;}</h3> 
+  <p>
+    arranges the elements horizontally and it will take up the minimum space podsible. As you can see the yellow or the blue color only takes up the minimum of space to fit all the contents in its div. You can not set width or height with inline display
+  </p>
+  </li>
+<li>
+  <h3>{display:block;}</h3>
+  <p>
+    arranges the elements vertically. The elements do not sit next to each other. The element will take up the full width given to it. See the red div (div 1) which take up the full width of the page. We can set the height but we can not set the width. 
+  </p>  
+</li>
+<li>
+  <h3>{display: inline-block;} </h3>
+  <p>arranges the elements horizontally just like inline. However, inline-block also allows us to set the width, height and padding of the container of the elements. As you can see in the orange div (i.e div 4) with  display inline-block, we can can set the width to 100px and height 100px in the css.
+  </p>  
+</li>
+<p></p>
+    
+  <p align="justify"> Below is a picture which explains how different displays work:</p>
+  <img src="../Media/display.png" alt="blockvsinline" width=70% height=auto>
+   </div>
+ 
